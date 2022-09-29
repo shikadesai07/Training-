@@ -200,23 +200,37 @@ a:hover{
 @media (max-width: 1028px) {
     .title-image {
         width: 110%;
+        height: 40rem;
+        padding-top: 5rem;
     }
     
     #title{
-    min-height: 100vh;
+    min-height: 80vh;
+    }
+    .title-bar{
+        text-align: center;
     }
 
     .intro {
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: center;
     }
 
     .intro1 {
-        font-size: 2.8rem;
+        font-size: 4rem;
         text-align: center;
     }
     h3{
         font-size: 4rem;
+    }
+    h2.projects::after {
+
+        content: '';
+        display: block;
+        width: 200px;
+        height: 8px;
+        background:#FF9494;
+        margin: 0.2em 0 1em;
     }
 
    .intro2{
@@ -229,32 +243,43 @@ a:hover{
   .image-1{
     border: solid 1px;
     width: 100%;
+    height: 50%;
    
 
 }
-
+.projects{
+    font-size: 4rem;
+}
+p{
+    font-size: 2.5rem;
+}
 
 
 .image-2{
     border: solid 1px;
     width: 100%;
+    height: 50%;
 }
 
 .image1-3{
     border: solid 1px;
     width: 100%; 
+    height: 50%;
 }
 .image-4{
     border: solid 1px;
     width: 100%;  
+    height: 50%;
 }
 .image-5{
     border: solid 1px;
     width: 100%; 
+    height: 50%;
 }
 .image-6{
     border: solid 1px;
     width: 100%;  
+    height: 50%;
 }
 .img1{
     padding: 4rem;
@@ -265,4 +290,5 @@ a:hover{
   left:3.8rem;
     bottom: 4rem;
 }
+
 }
